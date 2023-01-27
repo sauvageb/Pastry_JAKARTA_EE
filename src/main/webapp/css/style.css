@@ -1,0 +1,48 @@
+.pastries .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+.item-divider {
+    margin: 5rem 0;
+}
+
+.pastry-heading {
+    letter-spacing: -.05rem;
+}
+
+.content-pastry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-pastry > .description {
+    text-align: justify;
+}
+
+footer {
+    position: static;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 40em) {
+    .pastry-heading {
+        font-size: 50px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+}
+
+@media (min-width: 62em) {
+    /*.pastry-heading {*/
+    /*    margin-top: 7rem;*/
+    /*}*/
+}

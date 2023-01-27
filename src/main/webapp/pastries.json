@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "name": "Paris-brest",
+    "description": "Le paris-brest est une pâtisserie traditionnelle d'origine française, en forme de roue de vélo pour rendre hommage à la course cycliste Paris-Brest-Paris. ",
+    "recipeSummary": "Amandes, beurre pommade, eau, farine, lait, œufs, praliné, sel, sucre",
+    "origin": {
+      "id": 1,
+      "name": "Maisons-Laffitte",
+      "latitude": 48.9461437,
+      "longitude": 2.1450951
+    },
+    "images": [
+      {
+        "id": 1,
+        "name": "paris_brest_1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "paris_brest_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Kouign-amann",
+    "description": "Le kouign-amann est une pâtisserie-boulangère et spécialité culinaire emblématique de la cuisine bretonne, originaire de Douarnenez dans le Finistère en Bretagne, à base de pâte feuilletée, de beurre demi-sel et de sucre caramélisé.",
+    "recipeSummary": "Farine, eau, levure, sel, beurre demi-sel, sucre et lait",
+    "origin": {
+      "id": 2,
+      "name": "Douarnenez",
+      "latitude": 48.093228,
+      "longitude": -4.328619
+    },
+    "images": [
+      {
+        "id": 3,
+        "name": "kouignamann_1.jpg"
+      },
+      {
+        "id": 4,
+        "name": "kouignamann_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Saint-Honoré",
+    "description": "Le Saint-Honoré est un grand classique de la pâtisserie. Il a été créé par Chiboust en 1840, un pâtissier de la rue Saint-Honoré à Paris. Il se compose d’une base de pâte feuilletée, de deux bandes de pâte à choux sur lesquels sont posés des choux garnis de crème Chiboust. Cette crème recouvre aussi le centre, sous la crème Chantilly… dressée bien sûr à la douille Saint-Honoré !",
+    "recipeSummary": "Lait entier, sucre semoule, jaunes d'oeufs, farine, maizena, vanille, mascarpone, sucre glace",
+    "origin": {
+      "id": 3,
+      "name": "Paris",
+      "latitude": 48.86472228587096,
+      "longitude": 2.332367479119831
+    },
+    "images": [
+      {
+        "id": 5,
+        "name": "saint_honore_1.jpg"
+      },
+      {
+        "id": 6,
+        "name": "saint_honore_2.webp"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Mochi",
+    "description": "Le mochi fait partie de la grande famille des wagashis, pâtisseries traditionnelles japonaises parmi lesquelles figurent par exemple les yokans, gelées à base d’agar-agar, ainsi que les nerikiris, sculptures miniatures & comestibles.",
+    "recipeSummary": "Farine de riz gluant, sucre blanc, eau, fécule de maïs",
+    "origin": {
+      "id": 4,
+      "name": "Japon",
+      "latitude": 35.6828387,
+      "longitude": 139.7594549
+    },
+    "images": [
+      {
+        "id": 7,
+        "name": "moshi_1.jpg"
+      },
+      {
+        "id": 8,
+        "name": "moshi_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tarte au citron",
+    "description": "La tarte au citron est une tarte sucrée garnie de crème à base de citron. Elle ne comprend aucun fruit. La crème est un mélange d'œufs, de sucre, de jus de citron et de zeste de citron. Également appelée lemon curd, c'est cette crème qui donne à la tarte son goût.",
+    "recipeSummary": "80 g de sucre glace, 3 g de sel, 1 oeuf, 200 g de farine",
+    "origin": {
+      "id": 5,
+      "name": "Rennes",
+      "latitude": 48.1113387,
+      "longitude": -1.6800198
+    },
+    "images": [
+      {
+        "id": 9,
+        "name": "tarte_citron_1.jpg"
+      },
+      {
+        "id": 10,
+        "name": "tarte_citron_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Tarte au fraise",
+    "description": "Une tarte (pour plusieurs convives) ou tartelette (déclinaison réduite pour un seul consommateur) est une spécialité culinaire, constituée d'une pâte servant de support à une garniture qui peut être sucrée ou salée.",
+    "recipeSummary": "500 g de fraises, beurre , 30g de farine, 25cl de lait, 1 œufs, 40g de sucre",
+    "origin": {
+      "id": 6,
+      "name": "Lamotte Beuvron",
+      "latitude": 47.601677,
+      "longitude": 2.025165
+    },
+    "images": [
+      {
+        "id": 11,
+        "name": "tarte_fraises_1.jpg"
+      },
+      {
+        "id": 12,
+        "name": "tarte_fraises_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Cannelé",
+    "description": "Le cannelé, également écrit canelé, est un petit gâteau bordelais, en forme de cylindre cannelé, à pâte molle et tendre, parfumé au rhum et à la vanille, et cuit dans un moule originellement en cuivre, qui lui donne une fine croûte caramélisée.",
+    "recipeSummary": "50 cl de lait, 1/2 gousse de vanille, 1 c.a.s de rhum, 100g de farine, 250g de sucre, 50g de beurre doux, 1 pincé de sel, 2 oeufs entiers, 2 jaune d'oeuf",
+    "origin": {
+      "id": 7,
+      "name": "Bordeaux",
+      "latitude": 44.83,
+      "longitude": -0.57
+    },
+    "images": [
+      {
+        "id": 13,
+        "name": "cannele_1.jpg"
+      },
+      {
+        "id": 14,
+        "name": "cannele_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Chouquettes",
+    "description": "La chouquette est une petite pâtisserie de pâte à choux saupoudrée de sucre en gros grains et cuite au four. Pour la petite histoire, l'origine de la chouquette également appelée pâte de choux date du 16e siècle. Elle a été inventée par un pâtissier italien nommé POPELINI qui à l'époque faisait partie de la suite de la Reine Catherine de Médicis.",
+    "recipeSummary": "eau , beurre doux, farine, sucre semoule, sel, levure chimique, sucre vanillé, oeuf, sucre en grain",
+    "origin": {
+      "id": 8,
+      "name": "Chaumont-sur-Loire",
+      "latitude": 47.4781489,
+      "longitude": 1.1903903
+    },
+    "images": [
+      {
+        "id": 15,
+        "name": "chouquettes_1.jpg"
+      },
+      {
+        "id": 16,
+        "name": "chouquettes_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Splatzchen",
+    "description": "Voici des Plätzchen, c'est-à-dire des petits gâteaux secs (en général des sablés, mais ce sont aussi des pains d'épices, des roses des sables, et pleins de choses encore...) savoureux. A préparer en famille ou avec des amis. Recette différente et originale!",
+    "recipeSummary": "250 beurre | 1 oeuf | 100 sucre | 100 noisettes | 150 farine | 2cc canelle |confiture",
+    "origin": {
+      "id": 9,
+      "name": "Allemagne",
+      "latitude": 51.165691,
+      "longitude": 10.451526
+    },
+    "images": [
+      {
+        "id": 17,
+        "name": "splatzchen_1.jpg"
+      },
+      {
+        "id": 18,
+        "name": "splatzchen_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Carrot cake",
+    "description": "Il n’est pas si facile de retracer la première utilisation de la carotte dans des gâteaux\ncar elle a remplacé très tôt le sucre, denrée rare et onéreuse. On estime toutefois que\nles prémisses du carrot cake remontent au Moyen Âge, époque où il était commun d’utiliser\ndes légumes comme des courges pour préparer des puddings.",
+    "origin": {
+      "id": 10,
+      "name": "Canton d'Argovie",
+      "latitude": 47.1704896,
+      "longitude": 7.7771688
+    },
+    "images": [
+      {
+        "id": 19,
+        "name": "carrot_cake_1.jpg"
+      },
+      {
+        "id": 20,
+        "name": "carrot_cake_2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Macaron",
+    "description": "Le macaron est un petit gâteau français à l'amande, granuleux et moelleux, à la forme arrondie, d'environ 3 à 5 cm de diamètre, dérivé de la meringue.",
+    "recipeSummary": "300g de sucre glace,80g de farine d'amandes,2 cuillères à soupe de cacao,Une pincée de sel,2 blancs d'œuf, à température ambiante,5 cuillères à soupe de sucre en poudre",
+    "origin": {
+      "id": 11,
+      "name": "Saint-Émilion",
+      "latitude": 44.8931452,
+      "longitude": -0.1560662
+    },
+    "images": [
+      {
+        "id": 21,
+        "name": "macaron_1.webp"
+      },
+      {
+        "id": 22,
+        "name": "macaron_2.jpg"
+      }
+    ]
+  }
+]
