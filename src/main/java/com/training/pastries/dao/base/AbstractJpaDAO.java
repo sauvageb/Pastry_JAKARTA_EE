@@ -32,20 +32,48 @@ public abstract class AbstractJpaDAO<ID, T extends Serializable> implements Base
     @Override
     public T create(T entity) {
         EntityTransaction et = entityManager.getTransaction();
-        et.begin();
-        entityManager.persist(entity);
-        et.commit();
-        return entity;
+        try {
+            et.begin();
+            entityManager.persist(entity);
+            et.commit();
+            return entity;
+        } catch (Exception e) {
+            if (et.isActive()) {
+                et.rollback();
+            }
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
     public T update(T entity) {
-        return entityManager.merge(entity);
+        EntityTransaction et = entityManager.getTransaction();
+        try {
+            et.begin();
+            T updatedEntity = entityManager.merge(entity);
+            et.commit();
+            return updatedEntity;
+        } catch (Exception e) {
+            if (et.isActive()) {
+                et.rollback();
+            }
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
     public void delete(T entity) {
-        entityManager.remove(entity);
+        EntityTransaction et = entityManager.getTransaction();
+        try {
+            et.begin();
+            entityManager.remove(entity);
+            et.commit();
+        } catch (Exception e) {
+            if (et.isActive()) {
+                et.rollback();
+            }
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
