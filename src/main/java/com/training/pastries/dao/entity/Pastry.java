@@ -22,10 +22,10 @@ public class Pastry implements Serializable {
     @Column(length = 10000)
     private String recipeSummary;
 
-    @OneToMany(cascade = CascadeType.PERSIST)
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Image> images;
 
-    @OneToOne(cascade = CascadeType.PERSIST)
+    @OneToOne(cascade = CascadeType.ALL)
     private Origin origin;
 
     public Pastry() {
@@ -39,7 +39,6 @@ public class Pastry implements Serializable {
         p.setRecipeSummary(dto.getRecipeSummary());
         p.setOrigin(Origin.from(dto.getOrigin()));
         p.setImages(dto.getImages().stream().map(i -> Image.from(i)).collect(Collectors.toList()));
-
         return p;
     }
 
